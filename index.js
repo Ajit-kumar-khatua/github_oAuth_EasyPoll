@@ -65,7 +65,7 @@ passport2.use(
       });
     //   console.log(token);
       res.redirect(
-        `http://127.0.0.1:5500/Frontend/events.html?&email=${user.email}&id=${token}&first_name=${user.firstName}&last_name=${user.lastName}`
+        `https://dapper-melba-18cd1b.netlify.app/events.html?&email=${user.email}&id=${token}&first_name=${user.firstName}&last_name=${user.lastName}`
       );
     }
   );
