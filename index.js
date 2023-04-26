@@ -15,7 +15,7 @@ passport2.use(
       {
         clientID: process.env.clientId,
         clientSecret: process.env.clientSecret,
-        callbackURL: "http://localhost:8080/auth/github/callback",
+        callbackURL: "https://easypoll-oauth.onrender.com/auth/github/callback",
         scope: "user:email",
       },
       async function (accessToken, refreshToken, profile, done) {
