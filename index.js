@@ -65,11 +65,10 @@ passport2.use(
       });
     //   console.log(token);
       res.redirect(
-        `https://dapper-melba-18cd1b.netlify.app/events.html?&email=${user.email}&id=${token}&first_name=${user.firstName}&last_name=${user.lastName}`
+        `https://slido-frontend-sage.vercel.app/events.html?&email=${user.email}&id=${token}&first_name=${user.firstName}&last_name=${user.lastName}`
       );
     }
   );
-
 
 
 
