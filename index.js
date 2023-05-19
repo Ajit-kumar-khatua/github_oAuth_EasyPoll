@@ -65,7 +65,7 @@ passport2.use(
       });
     //   console.log(token);
       res.redirect(
-        `https://slido-frontend-sage.vercel.app/events.html?&email=${user.email}&id=${token}&first_name=${user.firstName}&last_name=${user.lastName}`
+        `https://polleasy123.netlify.app/events.html?&email=${user.email}&id=${token}&first_name=${user.firstName}&last_name=${user.lastName}`
       );
     }
   );
